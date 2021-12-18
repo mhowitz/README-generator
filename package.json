@@ -9,6 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhowitz/README-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhowitz/README-generator/issues"
+  },
+  "homepage": "https://github.com/mhowitz/README-generator#readme"
 }
