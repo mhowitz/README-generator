@@ -15,13 +15,13 @@ function renderLicenseBadge(license) {
 
 function renderLicenseLink(license) {
   if(license == 'MIT') {
-    return "https://choosealicense.com/licenses/mit/";
+    return "[MIT License Link]https://choosealicense.com/licenses/mit/";
   } else if (license == 'Mozilla') {
-    return `https://choosealicense.com/licenses/mpl-2.0/`;
+    return `[Mozilla License Link]https://choosealicense.com/licenses/mpl-2.0/`;
   } else if (license == 'GNU') {
-    return `https://choosealicense.com/licenses/gpl-3.0/`;
+    return `[GNU License Link]https://choosealicense.com/licenses/gpl-3.0/`;
   } else if (license == 'Apache') {
-    
+    return `[Apache License Link]https://choosealicense.com/licenses/apache-2.0/`
   } else {
     return ''
   }
@@ -1323,6 +1323,7 @@ function generateMarkdown(data) {
   ## License 
 
   ${renderLicenseBadge(data.license)}
+  
   ${renderLicenseLink(data.license)}
   
   ${renderLicenseSection(data.license, data.name)}
