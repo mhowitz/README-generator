@@ -16,11 +16,20 @@
   
   ## Installation
 
-  To use this application, the user must have Node.js and the Inquirer package installed. Once the user has these installed, they can open the terminal and type "node index" and the user will be prompted with multiple quesitons before the README file is generated.
+  Install the index.js file, the utils folder, and the package.json folder to your computer. To use this application, the user must have Node.js and the Inquirer package installed. Once the user has these installed, they can open the terminal and type "node index" and the user will be prompted with multiple quesitons before the README file is generated.
   
   ## Usage
 
   When the user runs the file, they are asked questions about their name, the name of their project, a description of their project, installation and usage instructions, and then which license they would like to add to their project. Once they answer these questions, then they may add contributors, their GitHub username, and their email for contacting them. There are three prompts that are required for the user to input including their name, the name of their repository, and a description of their project. If the user does not input anything into these, then it will keep prompting the user to input text until they finally do. 
+  
+  Here is a screenshot of what the README.md file will look like in the preview mode:
+  
+  ![screenshot-of-README-preview](images/readMePreview.JPG)
+  
+  
+  Here is a screenshot of the prompts that the user answers in Node.js:
+  
+  ![screenshot-of-terminal](images/terminal.JPG)
   
   ## License 
 
