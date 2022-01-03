@@ -1301,6 +1301,7 @@ function generateMarkdown(data) {
   return `
   
   # ${data.title}
+  ${renderLicenseBadge(data.license)}
   
   ## Description
 
@@ -1308,6 +1309,11 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
   
   
   ## Installation
@@ -1322,8 +1328,6 @@ function generateMarkdown(data) {
   
   ## License 
 
-  ${renderLicenseBadge(data.license)}
-  
   ${renderLicenseLink(data.license)}
   
   ${renderLicenseSection(data.license, data.name)}
@@ -1332,10 +1336,11 @@ function generateMarkdown(data) {
 
   ${data.contributing}
   
-  ## Tests
-  
-  ${data.tests}
-  
+  ## Questions
+
+  Click [here](https://github.com/${data.username}) to visit my GitHub profile
+
+  Email for questions: ${data.email}
 
 `;
 }

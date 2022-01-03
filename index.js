@@ -72,8 +72,13 @@ function init() {
         },
         {
             type: 'input',
-            name: 'tests',
-            message: 'Go the extra mile and add tests to your README!'
+            name: 'username',
+            message: 'Enter your GitHub username: '
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Enter your email address: '
         }
     ]).then(userInput=> {
         //console.log(userInput);
