@@ -5,7 +5,7 @@
   
   ## Description
 
-  This project was created to gain more experience using server-side API's. I used OpenWeather to get coordinates when a user enters a location and then used those coordinates to get the weather data and append it to the screen. In this project, I used JavaScript, OpenWeather, HTML, CSS, Bootstrap, and LocalStorage. When the user searches a city, that city is added to a list of buttons below the search bar so the user may click on those buttons and revisit that city's weather data. This was done using local storage.
+  Here is a description.
 
   ## Table of Contents
 
@@ -18,11 +18,11 @@
   
   ## Installation
 
-  Click the github URL link to view the website. To view the code, click the link to the github repository. Download the repository to your computer and unzip the file. Open the index.html file to view the HTML code. Open the style.css file to view the style sheet. Open the script.js file to view the JavaScript code.
+  Here are installation Instructions
   
   ## Usage
 
-  The user can enter in any city and the application will return the current weather data as well as a 5 day forecast.
+  Here are usage Instructions
   
   ## License 
 
@@ -40,11 +40,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   ## Contributing
 
-  Tutor
+  None
   
   ## Questions
 
   Click [here](https://github.com/mhowitz) to visit my GitHub profile
 
-  Email for questions: mikaylahowitz@gmail.com
+  Email for questions: miikaylahowitz@gmail.com
 
